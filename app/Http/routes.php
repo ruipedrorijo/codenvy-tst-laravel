@@ -28,7 +28,7 @@ Route::get('/user/{name?}',function($name = 'Virat Gandhi'){
 });
 
 Route::get('role',function(){
-   echo "Role ";
+   echo "Role 1 ";
 })->middleware(RoleMiddleware::class);
 
 

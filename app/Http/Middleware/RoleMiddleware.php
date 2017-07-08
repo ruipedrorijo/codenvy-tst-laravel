@@ -5,8 +5,14 @@ namespace App\Http\Middleware;
 use Closure;
 
 class RoleMiddleware {
-   public function handle($request, Closure $next) {
-      echo "Role: ";
+   public function handle($request, Closure $next, $role) {
+      echo "Role 2 ";
+      
+      /*
+       * 
+       */
+      
+      
       return $next($request);
    }
 }
