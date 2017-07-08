@@ -50,7 +50,7 @@ class Kernel extends HttpKernel
         'guest' => \App\Http\Middleware\RedirectIfAuthenticated::class,
         'throttle' => \Illuminate\Routing\Middleware\ThrottleRequests::class,
         'Age' => \App\Http\Middleware\AgeMiddleware::class,
-        //'Role' => \App\Http\Middleware\RoleMiddleware.php::class,
+        'Role' => \App\Http\Middleware\RoleMiddleware::class,
     ];
 }
 

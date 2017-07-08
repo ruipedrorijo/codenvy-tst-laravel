@@ -6,7 +6,7 @@ use Closure;
 
 class RoleMiddleware {
    public function handle($request, Closure $next, $role) {
-      echo "Role 2 ";
+      echo "Role 2 ". $role;
       
       /*
        * 
